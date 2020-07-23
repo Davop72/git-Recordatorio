@@ -1,0 +1,28 @@
+*{//restablece la configuracion por defecto a una predefinida por mi
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: darkorange;
+    color: white;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+h1{
+    background-color: aqua;
+}
+.container{
+    background-color: blue;
+}
+.nav-main{
+    background-color: chartreuse;
+}
+.nav-main-right{
+    background-color: coral;
+}
+.fas fa-search{
+    background-color: darkgreen;
+}

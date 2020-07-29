@@ -1,0 +1,39 @@
+[1mdiff --git a/index.html b/index.html[m
+[1mindex d06e2aa..c29631f 100644[m
+[1m--- a/index.html[m
+[1m+++ b/index.html[m
+[36m@@ -6,7 +6,7 @@[m
+     <title>Recordatorio</title>[m
+     <!-- custom css -->[m
+     <link rel="stylesheet" href="style.css">[m
+[31m-    <!-- enlace para FONT AWESOME -->[m
+[32m+[m[32m    <!-- enlace para FONT AWESOME (biblioteca de iconos + kit de herramientas)-->[m
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">[m
+     <!-- enlace para fuente Indie flower -->[m
+     <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">[m
+[36m@@ -26,12 +26,22 @@[m
+             <ul class="nav-menu-right">[m
+                 <li>[m
+                     <a href="#">[m
+[31m-                        <i class="fas fa-search"></i>[m
+[32m+[m[32m                        <!-- logo de lupa -->[m
+[32m+[m[32m                        <i class="fas fa-search"></i>[m[41m [m
+                     </a>[m
+                 </li>[m
+             </ul>[m
+         </nav>[m
+[32m+[m[32m        <hr/>[m
+[32m+[m[32m        <!-- SHOWCASE -->[m
+[32m+[m[32m        <header class="showcase">[m
+[32m+[m[32m            <h2>Calendario</h2>[m
+[32m+[m[32m            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt quos, aspernatur cumque consectetur laudantium vero voluptates perspiciatis qui dolore neque totam a reprehenderit error ipsum quam nesciunt quis accusamus nihil!</p>[m
+[32m+[m[32m            <a href="#" class="btn">Read more[m[41m [m
+[32m+[m[32m                <!-- logo de flechas -->[m
+[32m+[m[32m                <i class="fas fa-angle-double-right"></i>[m
+[32m+[m[32m            </a>[m[41m [m
+[32m+[m[32m        </header>[m
+     </div>[m
+[31m-    <h1>RECORDATORIO</h1>[m
+ </body>[m
+ </html>[m
+\ No newline at end of file[m
